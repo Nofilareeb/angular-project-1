@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web page </title>
+<style>
+body {
+    background-color: pink;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media screen and (min-width: 680px) {
+    body {
+        background-color: green;
+    }
+}
+@media screen and (min-width: 700px) {
+    body {
+        background-color: cyan;
+    }
+}
+@media screen and (min-width: 760px) {
+    body {
+        background-color: white;
+    }
+}
+
+</style>
+</head>
+<body>
+<form>
+<h1>Dog D.Dog </h1>
+<img src="dog.jpg"  alt="dog" value="hellow" align="right" width="250px" height="220px" />
+<div id="puppy" style="background-color:lightblue">
+<h2 style="color:blue">About</h2>
+</div>
+<br>
+<p>Woof woof!</p>
+<p>Hi,I'm Dog.I love <b style="color:blue">user Interface Design </b></p>
+<div id="puppy1" style="background-color:lightblue">
+<h2 style="color:blue">Courses</h2>
+</div>
+
+<pre>Here are some courses I've taken</pre>
+<table border="3">
+<thead>
+<tr>
+<th>Course number</th>
+<th>Course title</th>
+<th>Semester Taken</th>
+</tr>
+<tr>
+<th colspan="3">For credit</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="color:blue">6.813</td>
+<td style="color:blue">user Interface Design</td>
+<td style="color:blue"> spring 2014</td>
+</tr>
+<tr>
+<td style="color:blue">6.034</td>
+<td >Artificial intellegence</td>
+<td > Fall 2013</td>
+</tr>
+<tr>
+<td style="color:blue">6.006</td>
+<td >Introduction to Algorithm</td>
+<td > Fall 2013</td>
+</tr>
+<tr>
+<tr>
+<td colspan="3" align="center" style="color:black">Listner</td>
+
+</tr>
+<tr>
+<td style="color:blue">6.867</td>
+<td >Machine learning</td>
+<td > Fall 2013</td>
+</tr>
+<tr>
+<td style="color:blue">6.830</td>
+<td >Database system</td>
+<td > Fall 2012</td>
+</tr>
+</tr>
+</table>
+<div id="puppy2" style="background-color:lightblue">
+<h2 style="color:blue">Interests</h2>
+</div>
+<p>I am interested <strong>HCI</strong>,<i>memes</i>, and youtube videos. </p>
+<div id="puppy2" style="background-color:lightblue">
+<h2 style="color:blue">Submit pet Information</h2>
+</div>
+</tbody>
+<p>Would love to know what kinds os pet you 'own' (you'll never own me). Submir below! </p>
+<br>
+<label>Name:
+<input type="text" name="your name" /></label><br>
+<label>Phylum:
+<input type="text" name="your name" /></label><br>
+<label>Gender:
+<input type="text" name="your name" /></label>
+<br>
+<input type="submit" value="submit" />
+</form>
+</body>
+</html>	
+
